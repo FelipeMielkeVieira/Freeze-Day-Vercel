@@ -12,31 +12,31 @@ kaboom({
     background: [255, 255, 255]
 });
 
-loadSprite("playerD", "/sprites/playerD.png");
-loadSprite("playerR", "/sprites/playerR.png");
-loadSprite("playerL", "/sprites/playerL.png");
-loadSprite("playerU", "/sprites/playerU.png");
+loadSprite("playerD", "./sprites/playerD.png");
+loadSprite("playerR", "./sprites/playerR.png");
+loadSprite("playerL", "./sprites/playerL.png");
+loadSprite("playerU", "./sprites/playerU.png");
 
-loadSprite("redSlimeD", "/sprites/redSlimeD.png");
-loadSprite("greenSlimeD", "/sprites/greenSlimeD.png");
-loadSprite("blueSlimeD", "/sprites/blueSlimeD.png");
+loadSprite("redSlimeD", "./sprites/redSlimeD.png");
+loadSprite("greenSlimeD", "./sprites/greenSlimeD.png");
+loadSprite("blueSlimeD", "./sprites/blueSlimeD.png");
 
-loadSprite("closedPortal", "/sprites/closedPortal.png");
-loadSprite("openPortal", "/sprites/openPortal.png");
+loadSprite("closedPortal", "./sprites/closedPortal.png");
+loadSprite("openPortal", "./sprites/openPortal.png");
 
-loadSprite("redCrystal", "/sprites/redCrystal.png");
-loadSprite("greenCrystal", "/sprites/greenCrystal.png");
-loadSprite("blueCrystal", "/sprites/blueCrystal.png");
+loadSprite("redCrystal", "./sprites/redCrystal.png");
+loadSprite("greenCrystal", "./sprites/greenCrystal.png");
+loadSprite("blueCrystal", "./sprites/blueCrystal.png");
 
-loadSprite("queenSlime1", "/sprites/queenSlime.png");
-loadSprite("queenSlime2", "/sprites/queenSlime2.png");
-loadSprite("spike", "/sprites/spike.png");
-loadSprite("halfSpike", "/sprites/halfSpike.png");
+loadSprite("queenSlime1", "./sprites/queenSlime.png");
+loadSprite("queenSlime2", "./sprites/queenSlime2.png");
+loadSprite("spike", "./sprites/spike.png");
+loadSprite("halfSpike", "./sprites/halfSpike.png");
 
-loadSprite("slimeBravo", "/sprites/slimeBravo.png");
+loadSprite("slimeBravo", "./sprites/slimeBravo.png");
 
-loadSound("musica1", "/audio/audio1.mp3");
-loadSound("musica2", "/audio/audio2.mp3");
+loadSound("musica1", "./audio/audio1.mp3");
+loadSound("musica2", "./audio/audio2.mp3");
 
 let scoreSeg = 0;
 let scoreMin = 0;
