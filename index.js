@@ -4,10 +4,10 @@ const crud = require("./public/crud");
 
 const path = require("path");
 
-app.use(express.static("public"))
+app.use(express.static(__dirname + "public"))
 
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "./public/home.html"));
+  res.sendFile(path.join(__dirname + "./public/home.html"));
 })
 
 app.get("/db", async (req, res) => {
@@ -15,15 +15,15 @@ app.get("/db", async (req, res) => {
 });
 
 app.get("/mundo1", function (req, res) {
-  res.sendFile(path.join(__dirname, "./public/niveis/mundo1.html"));
+  res.sendFile(path.join(__dirname + "./public/niveis/mundo1.html"));
 });
 
 app.get("/mundo2", function (req, res) {
-  res.sendFile(path.join(__dirname, "./public/niveis/mundo2.html"));
+  res.sendFile(path.join(__dirname + "./public/niveis/mundo2.html"));
 });
 
 app.get("/rankings", function (req,res){
-  res.sendFile(path.join(__dirname, "./public/ranking.html"));
+  res.sendFile(path.join(__dirname + "./public/ranking.html"));
 })
 
 app.post("/", async (req, res) => {
