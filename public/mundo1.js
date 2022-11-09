@@ -12,31 +12,31 @@ kaboom({
     background: [255, 255, 255]
 });
 
-loadSprite("playerD", "/public/sprites/playerD.png");
-loadSprite("playerR", "/public/sprites/playerR.png");
-loadSprite("playerL", "/public/sprites/playerL.png");
-loadSprite("playerU", "/public/sprites/playerU.png");
+loadSprite("playerD", "sprites/playerD.png");
+loadSprite("playerR", "sprites/playerR.png");
+loadSprite("playerL", "sprites/playerL.png");
+loadSprite("playerU", "sprites/playerU.png");
 
-loadSprite("redSlimeD", "/public/sprites/redSlimeD.png");
-loadSprite("greenSlimeD", "/public/sprites/greenSlimeD.png");
-loadSprite("blueSlimeD", "/public/sprites/blueSlimeD.png");
+loadSprite("redSlimeD", "sprites/redSlimeD.png");
+loadSprite("greenSlimeD", "sprites/greenSlimeD.png");
+loadSprite("blueSlimeD", "sprites/blueSlimeD.png");
 
-loadSprite("closedPortal", "/public/sprites/closedPortal.png");
-loadSprite("openPortal", "/public/sprites/openPortal.png");
+loadSprite("closedPortal", "sprites/closedPortal.png");
+loadSprite("openPortal", "sprites/openPortal.png");
 
-loadSprite("redCrystal", "/public/sprites/redCrystal.png");
-loadSprite("greenCrystal", "/public/sprites/greenCrystal.png");
-loadSprite("blueCrystal", "/public/sprites/blueCrystal.png");
+loadSprite("redCrystal", "sprites/redCrystal.png");
+loadSprite("greenCrystal", "sprites/greenCrystal.png");
+loadSprite("blueCrystal", "sprites/blueCrystal.png");
 
-loadSprite("queenSlime1", "/public/sprites/queenSlime.png");
-loadSprite("queenSlime2", "/public/sprites/queenSlime2.png");
-loadSprite("spike", "/public/sprites/spike.png");
-loadSprite("halfSpike", "/public/sprites/halfSpike.png");
+loadSprite("queenSlime1", "sprites/queenSlime.png");
+loadSprite("queenSlime2", "sprites/queenSlime2.png");
+loadSprite("spike", "sprites/spike.png");
+loadSprite("halfSpike", "sprites/halfSpike.png");
 
-loadSprite("slimeBravo", "/public/sprites/slimeBravo.png");
+loadSprite("slimeBravo", "sprites/slimeBravo.png");
 
-loadSound("musica1", "/public/audio/audio1.mp3");
-loadSound("musica2", "/public/audio/audio2.mp3");
+loadSound("musica1", "audio/audio1.mp3");
+loadSound("musica2", "audio/audio2.mp3");
 
 let scoreSeg = 0;
 let scoreMin = 0;
