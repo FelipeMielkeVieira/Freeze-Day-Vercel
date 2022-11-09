@@ -12,31 +12,31 @@ kaboom({
     background: [255, 255, 255]
 });
 
-loadSprite("playerD", __dirname + "/sprites/playerD.png");
-loadSprite("playerR", __dirname + "/sprites/playerR.png");
-loadSprite("playerL", __dirname + "/sprites/playerL.png");
-loadSprite("playerU", __dirname + "/sprites/playerU.png");
+loadSprite("playerD", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/playerD.png");
+loadSprite("playerR", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/playerR.png");
+loadSprite("playerL", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/playerL.png");
+loadSprite("playerU", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/playerU.png");
 
-loadSprite("redSlimeD", __dirname + "/sprites/redSlimeD.png");
-loadSprite("greenSlimeD", __dirname + "/sprites/greenSlimeD.png");
-loadSprite("blueSlimeD", __dirname + "/sprites/blueSlimeD.png");
+loadSprite("redSlimeD", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/redSlimeD.png");
+loadSprite("greenSlimeD", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/greenSlimeD.png");
+loadSprite("blueSlimeD", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/blueSlimeD.png");
 
-loadSprite("closedPortal", __dirname + "/sprites/closedPortal.png");
-loadSprite("openPortal", __dirname + "/sprites/openPortal.png");
+loadSprite("closedPortal", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/closedPortal.png");
+loadSprite("openPortal", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/openPortal.png");
 
-loadSprite("redCrystal", __dirname + "/sprites/redCrystal.png");
-loadSprite("greenCrystal", __dirname + "/sprites/greenCrystal.png");
-loadSprite("blueCrystal", __dirname + "/sprites/blueCrystal.png");
+loadSprite("redCrystal", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/redCrystal.png");
+loadSprite("greenCrystal", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/greenCrystal.png");
+loadSprite("blueCrystal", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/blueCrystal.png");
 
-loadSprite("queenSlime1", __dirname + "/sprites/queenSlime.png");
-loadSprite("queenSlime2", __dirname + "/sprites/queenSlime2.png");
-loadSprite("spike", __dirname + "/sprites/spike.png");
-loadSprite("halfSpike", __dirname + "/sprites/halfSpike.png");
+loadSprite("queenSlime1", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/queenSlime.png");
+loadSprite("queenSlime2", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/queenSlime2.png");
+loadSprite("spike", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/spike.png");
+loadSprite("halfSpike", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/halfSpike.png");
 
-loadSprite("slimeBravo", __dirname + "/sprites/slimeBravo.png");
+loadSprite("slimeBravo", "https://freeze-day-vercel-aymv.vercel.app/public/sprites/slimeBravo.png");
 
-loadSound("musica1", __dirname + "/audio/audio1.mp3");
-loadSound("musica2", __dirname + "/audio/audio2.mp3");
+loadSound("musica1", "https://freeze-day-vercel-aymv.vercel.app/public/audio/audio1.mp3");
+loadSound("musica2", "https://freeze-day-vercel-aymv.vercel.app/public/audio/audio2.mp3");
 
 let scoreSeg = 0;
 let scoreMin = 0;
